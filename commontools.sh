@@ -41,7 +41,6 @@ installtools() {
    mkdir WebAppTools
    yes | apt install sqlmap
    wget https://github.com/sensepost/JBaah/raw/master/dist/JBaah.jar -P WebAppTools
-   yes | apt install sqlmap
 
 
    echo "$(tput setaf 2)INSTALLING FORENSIC TOOLS$(tput sgr0)"
