@@ -4,12 +4,12 @@ CTFs encountered and created.
 # Commontools.sh
 **Stenography**
 - steghide
--stegsolve
--binwalk
--zsteg
--foremost
--sonic visualiser
--audacity
+- stegsolve
+- binwalk
+- zsteg
+- foremost
+- sonic visualiser
+- audacity
 
 **Enumeration and Privilege Escalation**
 - dirbuster
@@ -20,8 +20,8 @@ CTFs encountered and created.
 - gdb and peda
 
 **Web App**
--Jbaah -> https://github.com/sensepost/JBaah/raw/master/dist/JBaah.jar
--sqlmap
+- Jbaah -> https://github.com/sensepost/JBaah/raw/master/dist/JBaah.jar
+- sqlmap
 
 **Forensics**
 - Volatility
