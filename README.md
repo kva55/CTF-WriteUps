@@ -1,7 +1,7 @@
 # CTF-WriteUps
 CTFs encountered and created. 
 
-#Commontools.sh
+# Commontools.sh
 **Stenography**
 - steghide
 -stegsolve
