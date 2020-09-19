@@ -34,7 +34,7 @@ installtools() {
    yes | apt install gdb
    git clone https://github.com/longld/peda.git
    mv peda RETools
-   rm peda
+   rm -r peda
    touch /home/$name/.gdbinit
    echo 'source RETools/peda/peda.py' >> /home/$name/.gdbinit #Step may need to be done manually
    echo "$(tput setaf 2)INSTALLING WEB APP TOOLS$(tput sgr0)"
