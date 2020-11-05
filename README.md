@@ -1,7 +1,10 @@
 # CTF-WriteUps
 CTF tools and walkthroughs
 
-# Commontools.sh
+# commontools.sh
+
+```sudo bash ./commontools.sh```
+
 **Stenography**
 - steghide
 - stegsolve
