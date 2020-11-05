@@ -26,3 +26,9 @@ CTFs encountered and created.
 **Forensics**
 - Volatility
 - Wireshark
+
+**Networking**
+- net-tools
+
+**ICS Bundle**
+- mbtget -> https://github.com/sourceperl/mbtget/blob/master/scripts/mbtget
