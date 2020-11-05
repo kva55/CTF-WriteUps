@@ -10,8 +10,9 @@ read name
 
 echo "Would you like to do"
 echo "1) CTF Bundle"
-echo "2) Update & CTF Bundle - recommended"
-echo "3) exit"
+echo "2) ICS Bundle"
+echo "3) Update & CTF Bundle - recommended"
+echo "4) exit"
 
 installtools() {
    echo "$(tput setaf 2)INSTALLING STEGANOGRAPHY TOOLS $(tput sgr0)"
@@ -37,15 +38,30 @@ installtools() {
    rm -r peda
    touch /home/$name/.gdbinit
    echo 'source RETools/peda/peda.py' >> /home/$name/.gdbinit #Step may need to be done manually
+
    echo "$(tput setaf 2)INSTALLING WEB APP TOOLS$(tput sgr0)"
    mkdir WebAppTools
    yes | apt install sqlmap
    wget https://github.com/sensepost/JBaah/raw/master/dist/JBaah.jar -P WebAppTools
+   yes | apt install sqlmap
 
 
    echo "$(tput setaf 2)INSTALLING FORENSIC TOOLS$(tput sgr0)"
    yes | apt install volatility
    yes | apt install wireshark
+
+   echo "$(tput setaf 2)INSTALLING NETWORKING UTILITIES$(tput sgr0)"
+   yes | apt install net-tools
+   #Add here
+
+}
+
+ics_install()
+{
+   echo "$(tput setaf 2)INSTALLING ICS Tools$(tput sgr0)"
+   mkdir ICS
+   wget https://raw.githubusercontent.com/sourceperl/mbtget/master/scripts/mbtget -P ICS
+
 }
 
 read answer
@@ -54,10 +70,13 @@ if (($answer == 1)); then
    installtools
 
 elif (($answer == 2)); then
+   ics_install
+
+elif (($answer == 3)); then
    yes | apt update && yes | apt upgrade
    installtools
 
-elif (($answer ==3)); then
+elif (($answer ==4)); then
    exit -0
 
 else
