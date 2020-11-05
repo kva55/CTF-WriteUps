@@ -1,5 +1,5 @@
 # CTF-WriteUps
-CTFs encountered and created. 
+CTF tool and walkthroughs
 
 # Commontools.sh
 **Stenography**
