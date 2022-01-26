@@ -1,7 +1,17 @@
 # Prep for CTFs
 
-# 1
+## Enumeration
+### Reccy
+- [ ] whois
+- [ ] nslookup
+- [ ] dnsdumpster
+- [ ] Sublist3r
+- [ ] ping / pingsweep
+- [ ] Verify UDP / TCP
+- [ ] OS Type
 
-# 2
 
-# 3
+## Web App
+
+## System Exploitation
+
