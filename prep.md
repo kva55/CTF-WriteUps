@@ -12,6 +12,17 @@
 
 
 ## Web App
+- [ ] Banner - http/s
+- [ ] OPTIONS
+- [ ] Check for uploads
+- [ ] Dirb, gobuster, feroxbuster, etc
+- [ ] XSS (Expand)
+- [ ] SQL (Expand)
 
 ## System Exploitation
+- [ ] Linenum.sh
+- [ ] Unshadow
+- [ ] Hydra
+- [ ] Windows Shares
+- [ ] msfconsole (Expand)
 
