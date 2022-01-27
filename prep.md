@@ -15,7 +15,7 @@
 - [ ] crt.sh
 - [ ] amass
 <details>
-<summary> Details </summary>
+<summary> amass install  </summary>
 	<pre>$ sudo apt install snapd </pre>
 	<pre>$ service snapd start </pre>
 	<pre>$ snap install amass </pre>
@@ -32,14 +32,21 @@
 
 ## Web App
 - [ ] Banner - http/s
-- ``` nc <target> <port>```
-- ``` <verb> / /http/1.0 ```
-
-- ``` openssl s_client -connect <target>.<top-level domain>:<port> ```
-- ``` <verb> / http/1.0 ```
-
+<details>
+<summary> Grabbing Banners </summary>
+	<pre>$ nc <target> <port> </pre>
+	<pre>$ <verb> / /http/1.0 </pre>
+	<br>
+	<words>When dealing with https</words>
+	<pre>$ openssl s_client -connect <target>.<top-level domain>:<port> </pre>
+	<pre>$  <verb> / http/1.0 </pre>
+</details>
 - [ ] httprint (signature based)
-- ``` httprint -P0 -h <target hosts> -s <signature file> ``` -> automatic fingerprinting
+<details> 
+<summary> Using httprint </summary>
+	<pre>$ httprint -P0 -h <target hosts> -s <signature file> ``` -> automatic fingerprinting </pre>
+</details>
+
 - [ ] OPTIONS
 - [ ] Check for uploads
 - [ ] Proxy the site(s)  (BurpSuite, ZAP)
