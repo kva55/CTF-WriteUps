@@ -17,6 +17,7 @@
 - [ ] Check for uploads
 - [ ] Dirb, gobuster, feroxbuster, etc
 - [ ] XSS (Expand)
+- [ ] Types of XSS
 - [ ] SQL (Expand)
 
 ## System Exploitation
