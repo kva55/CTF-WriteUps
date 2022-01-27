@@ -14,14 +14,14 @@
 - [ ] Sublist3r
 - [ ] crt.sh
 - [ ] amass
-<div class="dropdown">
-<button class="dropbtn">DropDown</button>
-<d1>	1. ``` sudo apt install snapd``` </d1>
+<drop open">
+<stuff>
+	1. ``` sudo apt install snapd```
 	2. ``` service snapd start```
 	3. ``` snap install amass```
 	4. ``` snap run amass```
-</div>
-</div>
+</stuff>
+</drop>
 
 ### In-Depth Scanning
 - [ ] ping / pingsweep / masscan
