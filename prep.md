@@ -15,12 +15,12 @@
 - [ ] crt.sh
 - [ ] amass
 <drop open">
-<stuff>
+<stuff> Details </stuff>
+<br>
 	1. ``` sudo apt install snapd```
 	2. ``` service snapd start```
 	3. ``` snap install amass```
 	4. ``` snap run amass```
-</stuff>
 </drop>
 
 ### In-Depth Scanning
