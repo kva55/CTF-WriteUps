@@ -41,10 +41,11 @@
 	<pre>$ openssl s_client -connect <target>.<top-level domain>:<port> </pre>
 	<pre>$  <verb> / http/1.0 </pre>
 </details>
+
 - [ ] httprint (signature based)
-<details> 
+<details>
 <summary> Using httprint </summary>
-	<pre>$ httprint -P0 -h <target hosts> -s <signature file> ``` -> automatic fingerprinting </pre>
+	<pre>$ httprint -P0 -h <target hosts> -s <signature file> -> automatic fingerprinting </pre>
 </details>
 
 - [ ] OPTIONS
