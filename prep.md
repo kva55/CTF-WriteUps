@@ -16,9 +16,8 @@
 - [ ] amass
 <details>
 <summary> Details </summary>
-<div>
-	1. ``` sudo apt install snapd```
-	2. ``` service snapd start```
+	1. <pre>$ sudo apt install snapd </pre>
+	2. <pre>$ service snapd start </pre>
 	3. ``` snap install amass```
 	4. ``` snap run amass```
 </div>
