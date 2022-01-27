@@ -42,7 +42,7 @@
 	<pre>$ <verb> / /http/1.0 </pre>
 	<br>
 	<words>When dealing with https</words>
-	<pre>$ openssl s_client -connect <target>.<top-level domain>:<port> </pre>
+	<pre>$ openssl s_client -connect target.top-level domain:port </pre>
 	<pre>$  <verb> / http/1.0 </pre>
 </details>
 
