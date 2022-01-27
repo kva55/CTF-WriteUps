@@ -26,9 +26,13 @@
 - [ ] ping / pingsweep / masscan
 - [ ] Verify UDP / TCP
 - [ ] Verify FWs
-- nmap -Pn
 - [ ] OS Type
-
+<details>
+<summary>Common nmap options </summary>
+	<words> Firewalls 
+	<pre>$ nmap -Pn </pre>
+	</words>
+</details>
 
 ## Web App
 - [ ] Banner - http/s
