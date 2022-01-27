@@ -16,11 +16,12 @@
 - [ ] amass
 <details>
 <summary> Details </summary>
-<br>
+<div>
 	1. ``` sudo apt install snapd```
 	2. ``` service snapd start```
 	3. ``` snap install amass```
 	4. ``` snap run amass```
+</div>
 </details>
 
 ### In-Depth Scanning
