@@ -70,6 +70,7 @@
 - [ ] Hydra
 - [ ] Windows Shares
 - [ ] msfconsole
+<details>
 <summary> Common Metasploit Tools </summary>
 	<words> Background Sessions </words>
 	<pre>$ background (while in meterpreter) </pre>
