@@ -86,3 +86,15 @@
 	<pre>$ bypassuac </pre>
 </details>
 
+### Pivoting
+- [ ] Route
+- [ ] Metasploit autoroute
+<details>
+<summary> Metasploit Pivoting </summary>
+	<words> Background Sessions </words>
+	<pre>$ run autoroute -s ip/subnet </pre>
+	<pre>$ run autoroute -p (shows routes)</pre>
+	<words> Port Forwarding </words>
+	<pre>$ portfwd add -l 9999 -p 20 -r ip </pre>
+</details>
+
