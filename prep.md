@@ -96,5 +96,6 @@
 	<pre>$ run autoroute -p (shows routes)</pre>
 	<words> Port Forwarding </words>
 	<pre>$ portfwd add -l 9999 -p 20 -r ip </pre>
+	<pre>$ portfwd list </pre>
 </details>
 
