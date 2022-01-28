@@ -70,4 +70,18 @@
 - [ ] Hydra
 - [ ] Windows Shares
 - [ ] msfconsole
+<summary> Common Metasploit Tools </summary>
+	<words> Background Sessions </words>
+	<pre>$ background (while in meterpreter) </pre>
+	<pre>$ sessions -i </pre>
+	<pre>$ sessions -i # (session #) </pre>
+	<words> Common Commands </words>
+	<pre>$ sysinfo, ipconfig, route, getuid </pre>
+	<words> Common Utilities </words>
+	<pre>$ download x, upload x, use post/windows/gather/hashdump </pre>
+	<words> Automated PrivEsc </words>
+	<pre>$ getsystem </pre>
+	<words> OR </words>
+	<pre>$ bypassuac </pre>
+</details>
 
