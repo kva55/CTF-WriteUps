@@ -104,5 +104,11 @@
 	<words> Port Forwarding </words>
 	<pre>$ portfwd add -l 9999 -p 20 -r ip </pre>
 	<pre>$ portfwd list </pre>
+	<br>
+	<words> Using Metasploit as a SOCKS Proxy </words>
+	<pre>$ use auxiliary/server/socks_proxy </pre>
+	<pre>$ set VERSION 4a </pre>
+	<pre>$ set SRVPORT 9050</pre>
+	<pre>$ run -j </pre>
 </details>
 
