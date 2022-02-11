@@ -59,6 +59,12 @@
 - [ ] XSS (Expand)
 - [ ] Types of XSS
 - [ ] SQL (Expand)
+<details>
+<summary> SQL Good Stuff </summary>
+	<words> Basic MySQL </words>
+	<pre>$ mysql -h ip -u root -ppassword (-p[nospace]password) </pre>
+		
+</details>
 
 ## System Exploitation
 ### Vulnerability Scanning
